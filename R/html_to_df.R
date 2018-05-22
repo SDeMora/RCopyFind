@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ########################
 # Function: html_to_df #
 ########################
@@ -47,7 +46,7 @@ html_to_df <- function(x) {
   
   # Return item #
   return ( dat_out_comb )
-=======
+
 ########################
 # Function: html_to_df #
 ########################
@@ -96,5 +95,4 @@ html_to_df <- function(x) {
   
   # Return item #
   return ( dat_out_comb )
->>>>>>> 02f28a3d8bba97e78980c1822d3d9e62a290d299
 }

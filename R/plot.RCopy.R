@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ###################################
 # Function/Method: plot.RCopy     #
 ###################################
@@ -47,7 +47,7 @@ plot.RCopy <- function(x, count=TRUE, trim=FALSE,...) {
              ...)
   } # close else
   
-=======
+
 ###################################
 # Function/Method: plot.RCopy     #
 ###################################
@@ -96,5 +96,5 @@ plot.RCopy <- function(x, count=TRUE, trim=FALSE,...) {
              ...)
   } # close else
   
->>>>>>> 02f28a3d8bba97e78980c1822d3d9e62a290d299
+
 }
