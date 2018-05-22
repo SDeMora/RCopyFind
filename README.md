@@ -2,7 +2,9 @@
 
 ### Load package:
 library(devtools)
+
 install_github("SDeMora/RCopyFind")
+
 library(RCopyFind)
 
 #### Enter the directory ("...") where your HTML (WCopyFind output) is stored.
