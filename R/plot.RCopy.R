@@ -47,4 +47,3 @@ plot.RCopy <- function(x, count=TRUE, trim=FALSE,...) {
   } # close else
 
 }
-#Now off the plots...
