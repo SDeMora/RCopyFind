@@ -46,4 +46,3 @@ plot.RCopy <- function(x, count=TRUE, trim=FALSE,...) {
              ...)
   } # close else
   
-}
