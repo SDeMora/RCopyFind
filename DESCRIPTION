@@ -9,4 +9,8 @@ Author: Stephanie L. DeMora, and
 Maintainer: Stephanie L. DeMora <Stephanie.DeMora@email.ucr.edu>
 Description: This package imports HTML files produced by plagiarism software, "WCopyFind" (for more information go to: http://plagiarism.bloomfieldmedia.com/wordpress/) and transforms them into workable datafames. Additionally, it produces dotplots for easy data visualization.
 License: GPL-2
+<<<<<<< HEAD
 Depends: RCurl, XML, rlist
+=======
+Depends: RCurl, XML, rlist
+>>>>>>> 1f5c3579e811b2df594a310f6842127d5ded91ed
