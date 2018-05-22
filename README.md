@@ -7,7 +7,7 @@ install_github("SDeMora/RCopyFind")
 
 library(RCopyFind)
 
-#### Enter the directory ("...") where your HTML (WCopyFind output) is stored (for example download "data".
+#### Enter the directory ("...") where your HTML (WCopyFind output) is stored (for example download "data").
 
 dir <- "..."
 
