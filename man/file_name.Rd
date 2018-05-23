@@ -28,7 +28,7 @@ file_name(dir)
 %% ~put references to the literature/web site here ~
 }
 \author{
-Stephanie L. DeMora
+Stephanie L. DeMora and Loren Collingwood
 }
 \note{
 %%  ~~further notes~~
