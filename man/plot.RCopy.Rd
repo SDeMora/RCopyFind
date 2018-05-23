@@ -49,16 +49,20 @@ Stephanie L. DeMora and Loren Collingwood}
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
+### Prepare example data here
 dir <- system.file("extdata", package="RCopyFind")
-
 match_dat<- (html_to_df(file_name(dir)))
 
+#### Plot, Defaults -- Overall Counts, No trim; set cex here
 plot(match_dat, cex=.4)
 
+#### Plot, Overall Counts, trimmed #
 plot(match_dat, cex=.4, trim=T)
 
+#### Plot, Overall Percent Match
 plot(match_dat, cex=.4, count=F)
 
+#### Plot, Overall Percent Match, trimmed
 plot(match_dat, cex=.4, count=F, trim=T)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
