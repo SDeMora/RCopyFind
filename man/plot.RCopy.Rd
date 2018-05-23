@@ -50,39 +50,7 @@ plot.RCopy(x, count = TRUE, trim = FALSE, ...)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
 
-## The function is currently defined as
-function (x, count = TRUE, trim = FALSE, ...) 
-{
-    if (count) {
-        if (trim) {
-            x@data <- x@data[x@data$Overall.Match_count >= 25, 
-                ]
-        }
-        x@data <- x@data[rev(order(x@data$Perfect.Match_count)), 
-            ]
-        xvar <- x@data[, 7]
-        labs <- x@data[, 10]
-        dotchart(xvar, xlab = "Word Similarity", bty = "n", main = "Textual Similarity to Model Legislation", 
-            labels = labs, ...)
-    }
-    else {
-        if (trim) {
-            x@data <- x@data[x@data$Overall.Match_percent > 0, 
-                ]
-        }
-        x@data <- x@data[rev(order(x@data$Overall.Match_percent)), 
-            ]
-        xvar <- x@data[, 8]
-        labs <- x@data[, 10]
-        dotchart(xvar, xlab = "Percent Word Similarity", bty = "n", 
-            main = "Textual Similarity to Model Legislation", 
-            labels = labs, ...)
-    }
-  }
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
