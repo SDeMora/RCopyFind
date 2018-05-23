@@ -46,4 +46,4 @@ html_to_df <- function(x) {
   
   # Return item #
   return ( dat_out_comb )
-
+}

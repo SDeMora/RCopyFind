@@ -1,4 +1,4 @@
-# Set initial class #
+# Set initial class ( a bit different than what we had done before) #
 ################
 # Class: RCopy #
 ################
