@@ -2,11 +2,10 @@ Package: RCopyFind
 Type: Package
 Title: A Package to Compare HTML output from WCopyFind
 Version: 1.0
-Date: 2018-05-21 
+Date: 2018-05-21
 Author: Stephanie L. DeMora, and
   Loren Collingwood
 Maintainer: Stephanie L. DeMora <Stephanie.DeMora@email.ucr.edu>
 Description: This package imports HTML files produced by plagiarism software, "WCopyFind" (for more information go to: http://plagiarism.bloomfieldmedia.com/wordpress/) and transforms them into workable datafames. Additionally, it produces dotplots for easy data visualization.
 License: GPL-2
 Depends: RCurl, XML, rlist
-
