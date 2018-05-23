@@ -29,7 +29,7 @@ html_to_df(x)
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+Stephanie L. DeMora
 }
 \note{
 %%  ~~further notes~~
