@@ -1,9 +1,8 @@
 \name{match_dat}
 \alias{match_dat}
 \docType{data}
-\title{match_dat
-%%   ~~ data name/kind ... ~~
-}
+\title{
+match_dat}
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
 }

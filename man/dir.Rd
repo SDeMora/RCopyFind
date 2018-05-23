@@ -1,8 +1,7 @@
 \name{dir}
 \alias{dir}
 \docType{data}
-\title{dir
-%%   ~~ data name/kind ... ~~
+\title{directory
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
@@ -10,7 +9,7 @@
 \usage{data("dir")}
 \format{
   The format is:
- chr "C:/Users/xheli/Dropbox/Research/Complete Projects/SYG Law (ALEC Paper)/WCopyFind_Laws_statutes_Results (NEW)"
+ chr "C:/Users/xheli/Desktop"
 }
 \details{
 %%  ~~ If necessary, more details than the __description__ above ~~

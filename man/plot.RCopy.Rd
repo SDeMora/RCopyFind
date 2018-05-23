@@ -1,9 +1,8 @@
 \name{plot.RCopy}
 \alias{plot.RCopy}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{plot.RCopy
-%%  ~~function to do ... ~~
-}
+\title{
+plot.RCopy}
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }

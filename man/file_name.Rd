@@ -1,9 +1,8 @@
 \name{file_name}
 \alias{file_name}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{file_name
-%%  ~~function to do ... ~~
-}
+\title{
+file_name}
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }

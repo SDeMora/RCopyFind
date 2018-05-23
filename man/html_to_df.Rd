@@ -1,9 +1,8 @@
 \name{html_to_df}
 \alias{html_to_df}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{html_to_df
-%%  ~~function to do ... ~~
-}
+\title{
+html_to_df}
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
