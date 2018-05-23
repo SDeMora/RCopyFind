@@ -41,8 +41,7 @@ Stephanie L. DeMora and Loren Collingwood
 }
 \examples{
 dir <- system.file("extdata", package="RCopyFind")
-match_dat<- (html_to_df(file_name(dir)))
-View(match_dat@data)
+match_dat<-file_name(dir)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
