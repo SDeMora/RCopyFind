@@ -4,8 +4,7 @@
 \title{
 html_to_df}
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
-}
+html_to_df takes the raw html code typically produced by WCopyFind and translates it into a workable dataframe.}
 \usage{
 html_to_df(x)
 }
@@ -29,7 +28,7 @@ html_to_df(x)
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+Stephanie L. DeMora
 }
 \note{
 %%  ~~further notes~~
@@ -41,45 +40,9 @@ html_to_df(x)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x) 
-{
-    packages <- c("RCurl", "XML", "rlist")
-    check.packages <- function(pkg) {
-        new.pkg <- pkg[!(pkg \%in\% installed.packages()[, "Package"])]
-        if (length(new.pkg)) 
-            install.packages(new.pkg, dependencies = TRUE)
-        sapply(pkg, require, character.only = TRUE)
-    }
-    check.packages(packages)
-    location <- getURL(x, .opts = list(ssl.verifypeer = FALSE))
-    tablez <- readHTMLTable(location)
-    tablez <- list.clean(tablez, fun = is.null, recursive = FALSE)
-    n.rows <- unlist(lapply(tablez, function(t) dim(t)[1]))
-    dat_out <- as.data.frame(tablez[[which.max(n.rows)]])
-    dat_out <- as.data.frame(sapply(dat_out, as.character), stringsAsFactors = F)
-    colnames(dat_out) <- c("Perfect_Match", "Overall_Match", 
-        "View_both_Files", "File_L", "File_R")
-    dat_out$Perfect.Match_count = as.numeric(gsub("\\s* .*", 
-        "", dat_out$Perfect_Match))
-    dat_out$Overall.Match_count = as.numeric(gsub("\\s* .*", 
-        "", dat_out$Overall_Match))
-    dat_out$Overall.Match_percent = gsub("\%.*", "", dat_out$Overall_Match)
-    dat_out$Overall.Match_percent = as.numeric(gsub(".*\\(", 
-        "", dat_out$Overall.Match_percent))
-    dat_out$Perfect.Match_percent = gsub("\%.*", "", dat_out$Perfect_Match)
-    dat_out$Perfect.Match_percent = as.numeric(gsub(".*\\(", 
-        "", dat_out$Perfect.Match_percent))
-    dat_out$labs <- gsub(".rtf.txt", "", dat_out$File_R)
-    dat_out_comb <- new("RCopy", data = dat_out)
-    cat("DataFrame dimensions:\n")
-    print(dim(dat_out))
-    return(dat_out_comb)
-  }
+dir <- system.file("extdata", package="RCopyFind")
+match_dat<- (html_to_df(file_name(dir)))
+head(match_dat@data)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

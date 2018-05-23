@@ -5,8 +5,7 @@
 
 \title{Class \code{"RCopy"}}
 \description{
-%%  ~~ A concise (1-5 lines) description of what the class is. ~~
-}
+A specialized class to help easily produce accurate data visualization from WCopyFind html files. }
 \section{Objects from the Class}{
 Objects can be created by calls of the form \code{new("RCopy", ...)}.
 %%  ~~ describe objects here ~~ 
@@ -33,8 +32,7 @@ No methods defined with class "RCopy" in the signature.
 %%  ~~put references to the literature/web site here~~
 }
 \author{
-%%  ~~who you are~~
-}
+Stephanie L. DeMora }
 \note{
 %%  ~~further notes~~
 }
