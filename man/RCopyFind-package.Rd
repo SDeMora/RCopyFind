@@ -2,41 +2,34 @@
 \alias{RCopyFind-package}
 \alias{RCopyFind}
 \docType{package}
-\title{RCopyFind
+\title{
 \packageTitle{RCopyFind}
 }
 \description{
 \packageDescription{RCopyFind}
 }
 \details{
+
+The DESCRIPTION file:
 \packageDESCRIPTION{RCopyFind}
 \packageIndices{RCopyFind}
+~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
 \packageAuthor{RCopyFind}
 
 Maintainer: \packageMaintainer{RCopyFind}
 }
-\references{"Shoot First in ALEC's Castle: The Diffusion of Stand Your Ground Laws" (Collingwood, DeMora, and Ninci 2018)}
-
+\references{
+~~ Literature or other references for background information ~~
+}
+~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R documentation ~~
+~~ directory ~~
 \keyword{ package }
 \seealso{
-www.StephanieDeMora.com, www.CollingwoodResearch.com
+~~ Optional links to other man pages, e.g. ~~
+~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
 }
 \examples{
-
-match_dat <- html_to_df(file_name(dir)); head(match_dat@data)
-
-
-# Plot, Defaults -- Overall Counts, No trim; set cex here
-plot.RCopy(match_dat, cex=.4)
-
-# Plot, Overall Counts, trimmed #
-plot.RCopy(match_dat, cex=.4, trim=T)
-
-# Plot, Overall Percent Match
-plot.RCopy(match_dat, cex=.4, count=F)
-
-# Plot, Overall Percent Match, trimmed
-plot.RCopy(match_dat, cex=.4, count=F, trim=T)}
-
+~~ simple examples of the most important functions ~~
+}

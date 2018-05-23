@@ -2,9 +2,10 @@
 \alias{plot.RCopy}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-plot.RCopy}
+%%  ~~function to do ... ~~
+}
 \description{
-plot.RCopy automatically sorts comparison data and generates pre-labeled dotplots. 
+%%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
 plot.RCopy(x, count = TRUE, trim = FALSE, ...)
@@ -38,7 +39,7 @@ plot.RCopy(x, count = TRUE, trim = FALSE, ...)
 %% ~put references to the literature/web site here ~
 }
 \author{
-Stephanie L. DeMora
+%%  ~~who you are~~
 }
 \note{
 %%  ~~further notes~~
@@ -50,21 +51,39 @@ Stephanie L. DeMora
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-### Prepare example data here
-dir <- system.file("extdata", package="RCopyFind")
-match_dat<- (html_to_df(file_name(dir)))
+##---- Should be DIRECTLY executable !! ----
+##-- ==>  Define data, use random,
+##--	or do  help(data=index)  for the standard data sets.
 
-#### Plot, Defaults -- Overall Counts, No trim; set cex here
-plot(match_dat, cex=.4)
-
-#### Plot, Overall Counts, trimmed #
-plot(match_dat, cex=.4, trim=T)
-
-#### Plot, Overall Percent Match
-plot(match_dat, cex=.4, count=F)
-
-#### Plot, Overall Percent Match, trimmed
-plot(match_dat, cex=.4, count=F, trim=T)
+## The function is currently defined as
+function (x, count = TRUE, trim = FALSE, ...) 
+{
+    if (count) {
+        if (trim) {
+            x@data <- x@data[x@data$Overall.Match_count >= 25, 
+                ]
+        }
+        x@data <- x@data[rev(order(x@data$Perfect.Match_count)), 
+            ]
+        xvar <- x@data[, 7]
+        labs <- x@data[, 10]
+        dotchart(xvar, xlab = "Word Similarity", bty = "n", main = "Textual Similarity to Model Legislation", 
+            labels = labs, ...)
+    }
+    else {
+        if (trim) {
+            x@data <- x@data[x@data$Overall.Match_percent > 0, 
+                ]
+        }
+        x@data <- x@data[rev(order(x@data$Overall.Match_percent)), 
+            ]
+        xvar <- x@data[, 8]
+        labs <- x@data[, 10]
+        dotchart(xvar, xlab = "Percent Word Similarity", bty = "n", 
+            main = "Textual Similarity to Model Legislation", 
+            labels = labs, ...)
+    }
+  }
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

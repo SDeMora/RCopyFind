@@ -2,7 +2,8 @@
 \alias{match_dat}
 \docType{data}
 \title{
-match_dat}
+%%   ~~ data name/kind ... ~~
+}
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
 }
@@ -22,8 +23,7 @@ match_dat}
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-dir <- system.file("extdata", package="RCopyFind")
-match_dat<- (html_to_df(file_name(dir)))
-View(match_dat@data)
+data(match_dat)
+## maybe str(match_dat) ; plot(match_dat) ...
 }
 \keyword{datasets}
