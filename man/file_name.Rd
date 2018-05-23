@@ -29,7 +29,7 @@ file_name(dir)
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+%%  Stephanie L. DeMora and Loren Collingwood
 }
 \note{
 %%  ~~further notes~~
@@ -41,15 +41,21 @@ file_name(dir)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
+##Pull in the example data location at set it to "dir":
+dir <- system.file("extdata", package="RCopyFind")
 
-## The function is currently defined as
-function (dir) 
-{
-    paste0("file://", dir, "/matches.html")
-  }
+##Use the "file_name" function to list the appropraite file path for data conversion:
+match_dat<-file_name(dir)
+
+##Use the html_to_df function to convert the HTML code into a dataframe:
+match_dat<- html_to_df(match_dat)
+
+##Take a gander!
+View(match_dat@data)
+
+#Generate some plots:
+plot(match_dat, cex=.4, trim=T)
+plot(match_dat, cex=.4, count=F, trim=T)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
