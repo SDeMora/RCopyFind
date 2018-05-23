@@ -45,5 +45,5 @@ plot.RCopy <- function(x, count=TRUE, trim=FALSE,...) {
              labels=labs,
              ...)
   } # close else
-  
+
 }
