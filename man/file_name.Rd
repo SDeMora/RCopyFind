@@ -4,7 +4,8 @@
 \title{
 file_name}
 \description{
-file_name produces the accurate file path for the html output produced by WCopyFind. This allows R to read and recognize the file for further processing.}
+%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+}
 \usage{
 file_name(dir)
 }
@@ -28,7 +29,7 @@ file_name(dir)
 %% ~put references to the literature/web site here ~
 }
 \author{
-Stephanie L. DeMora and Loren Collingwood
+%%  ~~who you are~~
 }
 \note{
 %%  ~~further notes~~
@@ -40,8 +41,15 @@ Stephanie L. DeMora and Loren Collingwood
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-dir <- system.file("extdata", package="RCopyFind")
-match_dat<-file_name(dir)
+##---- Should be DIRECTLY executable !! ----
+##-- ==>  Define data, use random,
+##--	or do  help(data=index)  for the standard data sets.
+
+## The function is currently defined as
+function (dir) 
+{
+    paste0("file://", dir, "/matches.html")
+  }
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
