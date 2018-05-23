@@ -41,19 +41,6 @@ file_name(dir)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##Pull in the example data location at set it to "dir":
-dir <- system.file("extdata", package="RCopyFind")
-
-##Use the "file_name" function to list the appropraite file path for data conversion:
-match_dat<-file_name(dir)
-
-##Use the html_to_df function to convert the HTML code into a dataframe:
-match_dat<- html_to_df(match_dat)
-
-##Take a gander!
-View(match_dat@data)
-
-#Generate some plots:
 plot(match_dat, cex=.4, trim=T)
 plot(match_dat, cex=.4, count=F, trim=T)
 }
