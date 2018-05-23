@@ -4,7 +4,7 @@
 \title{
 plot.RCopy}
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+plot.RCopy automatically sorts comparison data and generates pre-labeled dotplots. 
 }
 \usage{
 plot.RCopy(x, count = TRUE, trim = FALSE, ...)
