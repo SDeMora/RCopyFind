@@ -40,8 +40,17 @@ Stephanie L. DeMora and Loren Collingwood
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
+#Pull in the example data location at set it to "dir":
 dir <- system.file("extdata", package="RCopyFind")
-match_dat<- (html_to_df(file_name(dir)))
+
+#Use the "file_name" function to list the appropraite file path for data conversion:
+match_dat<-file_name(dir)
+
+#Use the html_to_df function to convert the HTML code into a dataframe:
+match_dat<- html_to_df(match_dat)
+
+#Take a gander!
+View(match_dat@data)
 head(match_dat@data)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
