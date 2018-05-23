@@ -38,7 +38,7 @@ plot.RCopy(x, count = TRUE, trim = FALSE, ...)
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+Stephanie L. DeMora
 }
 \note{
 %%  ~~further notes~~
