@@ -4,8 +4,7 @@
 \title{
 html_to_df}
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
-}
+html_to_df takes the raw html code typically produced by WCopyFind and translates it into a workable dataframe.}
 \usage{
 html_to_df(x)
 }
