@@ -15,8 +15,7 @@ plot.RCopy(x, count = TRUE, trim = FALSE, ...)
 %%     ~~Describe \code{x} here~~
 }
   \item{count}{
-%%     ~~Describe \code{count} here~~
-}
+Plot based on match count OR percent. Default set to "TRUE" for count. FALSE = percent}
   \item{trim}{
 %%     ~~Describe \code{trim} here~~
 }
