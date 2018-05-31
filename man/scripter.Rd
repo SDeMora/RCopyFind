@@ -12,61 +12,46 @@ scripter(a = 200, b = "C:\\Users\\xheli\\Desktop\\CReport", c = 1, ca = "C:\\Use
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{a}{
-%%     ~~Describe \code{a} here~~
+numeric. The number of files to be compared. Default = 200
 }
   \item{b}{
-%%     ~~Describe \code{b} here~~
+location. The file location for the reports from WCopyFind to print in.
 }
   \item{c}{
-%%     ~~Describe \code{c} here~~
-}
+numeric. The first comparison group number. This should remain at default = 1}
   \item{ca}{
-%%     ~~Describe \code{ca} here~~
-}
+The location of the first comparison file or group. }
   \item{d}{
-%%     ~~Describe \code{d} here~~
-}
+numeric. The secodn comparison group number. This should remain at default = 2}
   \item{db}{
-%%     ~~Describe \code{db} here~~
-}
+The location of the second comparison file or group.}
   \item{e}{
-%%     ~~Describe \code{e} here~~
-}
+Set phrase Length. Default = 8}
   \item{f}{
-%%     ~~Describe \code{f} here~~
-}
+Set Word Threshold. Default = 6}
   \item{g}{
-%%     ~~Describe \code{g} here~~
-}
+Skip Length Setting Default = 20}
   \item{h}{
-%%     ~~Describe \code{h} here~~
-}
+Mismatch Tolerance. Default = 9}
   \item{i}{
-%%     ~~Describe \code{i} here~~
-}
+Mismatch Percentage. Default = 75}
   \item{j}{
-%%     ~~Describe \code{j} here~~
+Produces Brief Report (Yes = 1, No = 0). Default = 0
 }
   \item{k}{
-%%     ~~Describe \code{k} here~~
-}
+Ignore Case (Yes = 1, No = 0). Default = 0}
   \item{l}{
-%%     ~~Describe \code{l} here~~
-}
+Ignore Number (Yes = 1, No = 0). Default = 0}
   \item{m}{
-%%     ~~Describe \code{m} here~~
-}
+Ignore Outer Punctuation (Yes = 1, No = 0). Default = 0}
   \item{n}{
-%%     ~~Describe \code{n} here~~
-}
+Ignore Punctuation (Yes = 1, No = 0). Default = 0}
   \item{o}{
-%%     ~~Describe \code{o} here~~
-}
+Skip Long Words (Yes = 1, No = 0). Default = 0}
   \item{p}{
-%%     ~~Describe \code{p} here~~
-}
+First group to compare. Should remain at default = 1}
   \item{q}{
-%%     ~~Describe \code{q} here~~
+Second group to compare. Should remain at default = 2}
 }
 }
 \details{
