@@ -6,7 +6,7 @@ scripter}
 \description{
 Creates .txt file to run through CMD line based CopyFind.}
 \usage{
-scripter(Documents = 200, ReportFolder = "C:\\Users\\xheli\\Desktop\\CReport", Document1 = 1, Document1_loc = "C:\\Users\\xheli\\Desktop\\ALEC Model Leg.txt", Document2 = 2, Document2_loc = "C:\\Users\\xheli\\Desktop\\txt files", PhraseLength = 8, WordThreshold = 6, SkipLength = 20, MismatchTolerance = 9, MismatchPercentage = 75, BriefReport = 0, IgnoreCase = 1, IgnoreNumber = 1, IgnoreOuterPunctuation = 1, IgnorePunctuation = 1, SkipLongWords = 1, Compare1 = 1, Compare2 = 2)
+scripter(Documents = 200, ReportFolder = getwd(), Document1 = 1, Document1_loc, Document2 = 2, Document2_loc, PhraseLength = 8, WordThreshold = 6, SkipLength = 20, MismatchTolerance = 9, MismatchPercentage = 75, BriefReport = 0, IgnoreCase = 1, IgnoreNumber = 1, IgnoreOuterPunctuation = 1, IgnorePunctuation = 1, SkipLongWords = 1, Compare1 = 1, Compare2 = 2)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -14,19 +14,19 @@ scripter(Documents = 200, ReportFolder = "C:\\Users\\xheli\\Desktop\\CReport", D
 numeric. The number of files to be compared. Default = 200
 }
   \item{ReportFolder}{
-location. The file location for the reports from WCopyFind to print in.
+location. The file location for the reports from WCopyFind to print in. Default = working directory
 }
   \item{Document1}{
 numeric. The first comparison group number. This should remain at default = 1
 }
   \item{Document1_loc}{
-The location of the first comparison file or group
+The location of the first comparison file or group. No default.
 }
   \item{Document2}{
 numeric. The second comparison group number. This should remain at default = 2
 }
   \item{Document2_loc}{
-The location of the second comparison file or group.
+The location of the second comparison file or group. No deffault.
 }
   \item{PhraseLength}{
 Set phrase Length. Default = 8
