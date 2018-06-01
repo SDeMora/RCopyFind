@@ -29,7 +29,7 @@ The name of your script file produced by the "scripter" function.}
 %% ~put references to the literature/web site here ~
 }
 \author{
-Stephanie L. DeMora and Loren Collingwood
+Stephanie L. DeMora
 }
 \note{
 %%  ~~further notes~~

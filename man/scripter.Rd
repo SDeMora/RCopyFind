@@ -82,7 +82,7 @@ Second group to compare. Should remain at default = 2
 %% ~put references to the literature/web site here ~
 }
 \author{
-Stephanie L. DeMora and Loren Collingwood}
+Stephanie L. DeMora}
 \note{
 %%  ~~further notes~~
 }
@@ -95,7 +95,7 @@ Stephanie L. DeMora and Loren Collingwood}
 \examples{
 script<-scripter()
 write.table(script,"script.txt", col.names = FALSE, row.names = FALSE, quote = FALSE)
-shell("Copyfind64.4.1.5.exe < script.txt")
+
   }
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
