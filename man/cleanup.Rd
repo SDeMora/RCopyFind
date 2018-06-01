@@ -1,11 +1,11 @@
 \name{cleanup}
 \alias{cleanup}
-%- Also NEED an '\alias' for EACH other topic documented here.
+cleanup
 \title{
-%%  ~~function to do ... ~~
+cleanup
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+A function that gets rid of the script file in your working directory.
 }
 \usage{
 cleanup(script_file)
@@ -13,8 +13,7 @@ cleanup(script_file)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{script_file}{
-%%     ~~Describe \code{script_file} here~~
-}
+The name of your script file produced by the "scripter" function.}
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
@@ -30,7 +29,7 @@ cleanup(script_file)
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+Stephanie L. DeMora and Loren Collingwood
 }
 \note{
 %%  ~~further notes~~
@@ -49,9 +48,7 @@ cleanup(script_file)
 ## The function is currently defined as
 function (script_file) 
 {
-    file_name <- paste(script_file, ".txt", sep = "")
-    if (file.exists(file_name)) 
-        file.remove(file_name)
+cleanup("script")
   }
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
