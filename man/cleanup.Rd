@@ -41,13 +41,7 @@ Stephanie L. DeMora and Loren Collingwood
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
 
-## The function is currently defined as
-function (script_file) 
-{
 cleanup("script")
   }
 }
