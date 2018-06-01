@@ -1,12 +1,10 @@
 \name{run_copyfind}
 \alias{run_copyfind}
-%- Also NEED an '\alias' for EACH other topic documented here.
+run_copyfind
 \title{
-%%  ~~function to do ... ~~
-}
+run_copyfind}
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
-}
+Runs CopyFind from within package library. No extra install necessary. }
 \usage{
 run_copyfind(cleanup = F, script_name = NULL)
 }
@@ -33,8 +31,7 @@ run_copyfind(cleanup = F, script_name = NULL)
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
-}
+Stephanie L. DeMora}
 \note{
 %%  ~~further notes~~
 }
@@ -45,18 +42,7 @@ run_copyfind(cleanup = F, script_name = NULL)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
 
-## The function is currently defined as
-function (cleanup = F, script_name = NULL) 
-{
-    directory <- system.file("CopyFind", package = "RCopyFind")
-    shell(paste(directory, "Copyfind64.4.1.5.exe < script.txt", 
-        sep = "/"))
-    if (cleanup) {
-        cleanup(script_name)
     }
   }
 }
