@@ -1,0 +1,37 @@
+This act authorizes the use of force, including deadly force, against an intruder or attacker in a dwelling, residence, or vehicle under specified circumstances.
+It further creates a presumption that a reasonable fear of death or great bodily harm exists under these specific circumstances, and declares that a person has no duty to retreat and has the right to stand his or her ground and meet force with force if the person is in a place where he or she has a right to be and the force is necessary to prevent death, great bodily harm, or the commission of a forcible felony.
+Finally, the act provides immunity from civil prosecution or civil action for using deadly force, defines the term “criminal prosecution,” and authorizes law enforcement agencies to investigate the use of deadly force while prohibiting the agencies from arresting a person in these circumstances unless the agency determines that there is probable cause that the force the person used was unlawful.
+
+Model Legislation
+Legislative Resolution and Intent
+WHEREAS, the Legislature of [insert state/commonwealth name] finds that it is proper for law-abiding people to protect themselves, their families, and others from intruders and attackers without fear of prosecution or civil action from acting in defense of the themselves and others; and
+WHEREAS, the “Castle Doctrine” is a common-law doctrine of ancient origins that declares that a person’s home is his or her castle; and
+WHEREAS, [insert appropriate reference to the State/Commonwealth Constitution that provides for the right of citizens to bear arms] guarantees the right of the people to keep and bear arms; and
+WHEREAS, the persons residing in or visiting this [state/commonwealth] have a right remain unmolested within their homes or vehicles; and
+WHEREAS, no person or victim of crime should be required to surrender his or her personal safety to a criminal, nor should a person or victim be required to needlessly retreat in the face of intrusion or attack;
+*This model is based upon Florida legislation enacted April 26, 2005.
+BE IT RESOLVED, the Legislature of [insert state/commonwealth name] hereby enacts the following:
+Section 1. {Home Protection, Use of Deadly Force, Presumption of Fear of Death or Harm}
+1. A person is presumed to have held a reasonable fear of imminent peril of death or great bodily harm to himself or herself or another when using defensive force that is intended or likely to cause death or great bodily harm to another if:
+a. The person against whom the defensive force was used was in the process of unlawfully and forcefully entering, or had unlawfully or forcefully entered, a dwelling, residence, or occupied vehicle, or if that person had removed or was attempting to remove another against that person’s will from the dwelling, residence, or occupied vehicle; and
+b. The person who uses defensive force knew or had reason to believe that an unlawful and forcible entry or unlawful and forcible act was occurring or had occurred.
+2. The presumption set forth in Subsection (1) does not apply if:
+a. The person against whom the defensive force is used has the right to be in or is a lawful resident of the dwelling residence, or vehicle, such as an owner, lessee, or titleholder, and there is not an injunction for protection from domestic violence or a written pretrial supervision order of no contact against that person; or
+b. The person or persons sought to be removed is a child, grandchild, or is otherwise in the lawful custody or under the lawful guardianship of, the person against whom the defensive force is used; or
+c. The person who uses defensive force is engaged in a criminal activity or is using the dwelling, residence, or occupied vehicle to further a criminal activity; or
+d. The person against whom defensive force is used is a law enforcement officer, as defined in [insert appropriate reference to state/commonwealth code, which defines the term “law enforcement officer” or similar], who enters or attempts to enter a dwelling, residence, or vehicle in the performance of his or her official duties and the officer identified himself or herself in accordance with applicable law, or the person using force knew or reasonably should have known that the person entering or attempting to enter was a law enforcement officer.
+3. A person who is not engaged in an unlawful activity and who is attacked in any other place where he or she has a right to be has no duty to retreat and has the right to stand his or her ground and meet force with force, including deadly force if he or she reasonably believes it is necessary to do so to prevent death or great bodily harm to himself or herself or another, or to prevent the commission of a forcible felony.
+4. A person who unlawfully and by force enters or attempts to enter a person’s dwelling, residence, or occupied vehicle is presumed to be doing so with the intent to commit an unlawful act involving force or violence.
+5. As used in this section, the term:
+a. “Dwelling” means a building or conveyance of any kind, including any attached porch, whether the building or conveyance is temporary or permanent, mobile or immobile, which has a roof over it, including a tent, and is designed to be occupied by people lodging therein at night.
+b. “Residence” means a dwelling in which a person resides either temporarily or permanently or is visiting as an invited guest.
+c. “Vehicle” means a conveyance of any kind, whether or not motorized, which is designed to transport people or property.
+Section 2. {Immunity from Criminal Prosecution and Civil Action}
+1. As used in this subsection, the term “criminal prosecution” includes arresting, detaining in custody, and charging or prosecuting the defendant.
+2. A person who uses force as permitted in Section (1) [and other state codes which are affected/amended by this legislation and which refer to the use of force including deadly force] is justified in using such force and is immune from criminal prosecution and civil action for the use of such force, except when:
+a. The person against whom force was used is a law enforcement officer as defined in [insert appropriate reference to state/commonwealth code, which defines the term “law enforcement officer” or similar], who was acting in the performance of his or her duties and the officer identified himself or herself in accordance with applicable law; or
+b. The person using force knew or reasonably should have known that the person was a law enforcement officer.
+3. A law enforcement agency may use standard procedures for investigating the use of force as described in subsection (2), but the agency may not arrest the person for using force unless it determines that there is probable cause that the force that was used was unlawful.
+4. The court shall award reasonable attorney’s fees, court costs, compensation for loss of income, and all expenses incurred by the defendant in defense of any civil action brought by a plaintiff if the court finds that the defendant is immune from prosecution as provided in subsection (2).
+Section 3. {Severability}
+Section 4. {Effective Date}
