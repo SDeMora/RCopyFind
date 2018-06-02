@@ -19,7 +19,7 @@ getwd()
 
 
 ##5.) Save a script to THAT (above) folder:
-script<-scripter(ReportFolder = OldWD, Document1_loc = DOc1, Document2_loc = Doc2)
+script<-scripter(ReportFolder = OldWD, Document1_loc = Doc1, Document2_loc = Doc2)
 #Write it out:
 write.table(script,"script.txt", col.names = FALSE, row.names = FALSE, quote = FALSE)
 
