@@ -1,3 +1,7 @@
+####################################################
+### Create Directions Script File For Copy Find ####
+####################################################
+
 ##1.) Create a folder in your working directory called "CReport".
 
 ##2.) Save directory as "OldWD":
@@ -23,5 +27,22 @@ script<-scripter(ReportFolder = OldWD, Document1_loc = Doc1, Document2_loc = Doc
 #Write it out:
 write.table(script,"script.txt", col.names = FALSE, row.names = FALSE, quote = FALSE)
 
+####################################
+### Compare files with CopyFind ####
+####################################
+
 #Run it.
 run_copyfind(cleanup = T,"script")
+
+
+######################################
+### Send "matches.html" to a .csv ####
+######################################
+#Set directory to example "match.html" file
+dir <- system.file("extdata", package="RCopyFind")
+
+#Send data into dataframe
+match_dat<- (html_to_df(file_name(dir)))
+
+#Look at matches
+View(match_dat@data)
