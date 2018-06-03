@@ -13,7 +13,6 @@
 The DESCRIPTION file:
 \packageDESCRIPTION{RCopyFind}
 \packageIndices{RCopyFind}
-~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
 \packageAuthor{RCopyFind}
@@ -21,15 +20,11 @@ The DESCRIPTION file:
 Maintainer: \packageMaintainer{RCopyFind}
 }
 \references{
-~~ Literature or other references for background information ~~
+Collingwood, Loren, Stephanie DeMora, and Adriana Ninci. “Shoot First in ALEC’s Castle: The
+Diffusion of Stand Your Ground Laws.”
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R documentation ~~
-~~ directory ~~
 \keyword{ package }
 \seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
 }
 \examples{
-~~ simple examples of the most important functions ~~
 }
