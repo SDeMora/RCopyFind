@@ -7,9 +7,9 @@ OldWD<-paste(getwd(),"/CReport", sep="")
 #CopyFind Program
 DIRECT<-system.file("CopyFind", package="RCopyFind")
 #Example Text for "Document1_loc"
-Doc1<-system.file("ALEC Model Leg.txt", package="RCopyFind")
+Doc1<-system.file("extdata/ALEC Model Leg.txt", package="RCopyFind")
 #Example Text for "Document2_loc"
-Doc2<-system.file("txt files", package="RCopyFind")
+Doc2<-system.file("extdata/txt files", package="RCopyFind")
 
 ##4.) Re-set your directory (LEAVE "CReport" Wherever your initial directory (oldWD) was.).
 setwd(DIRECT)
