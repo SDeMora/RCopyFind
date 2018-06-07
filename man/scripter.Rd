@@ -49,7 +49,7 @@ Produces Brief Report (Yes = 1, No = 0). Default = 0
   \item{IgnoreCase}{
 Ignore Case (Yes = 1, No = 0). Default = 0
 }
-  \item{IgnoreNumber}{
+  \item{IgnoreNumbers}{
 Ignore Number (Yes = 1, No = 0). Default = 0
 }
   \item{IgnoreOuterPunctuation}{
