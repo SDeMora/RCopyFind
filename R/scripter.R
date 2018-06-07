@@ -16,7 +16,7 @@ scripter<-function(Documents=200,ReportFolder=getwd(),
   arg9 <- paste("MismatchPercentage,",MismatchPercentage,sep="")
   arg10 <- paste("BriefReport,",BriefReport,sep="")
   arg11 <- paste("IgnoreCase,",IgnoreCase,sep="")
-  arg12 <- paste("IgnoreNumbers,",IgnoreNumber,sep="")
+  arg12 <- paste("IgnoreNumbers,",IgnoreNumbers,sep="")
   arg13 <- paste("IgnoreOuterPunctuation,",IgnoreOuterPunctuation,sep="")
   arg14 <- paste("IgnorePunctuation,",IgnorePunctuation,sep="")
   arg15 <- paste("SkipLongWords,",SkipLongWords,sep="")

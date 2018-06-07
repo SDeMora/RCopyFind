@@ -6,7 +6,7 @@ scripter}
 \description{
 Creates .txt file to run through CMD line based CopyFind.}
 \usage{
-scripter(Documents = 200, ReportFolder = getwd(), Document1 = 1, Document1_loc, Document2 = 2, Document2_loc, PhraseLength = 8, WordThreshold = 6, SkipLength = 20, MismatchTolerance = 9, MismatchPercentage = 75, BriefReport = 0, IgnoreCase = 1, IgnoreNumber = 1, IgnoreOuterPunctuation = 1, IgnorePunctuation = 1, SkipLongWords = 1, Compare1 = 1, Compare2 = 2)
+scripter(Documents = 200, ReportFolder = getwd(), Document1 = 1, Document1_loc, Document2 = 2, Document2_loc, PhraseLength = 8, WordThreshold = 6, SkipLength = 20, MismatchTolerance = 9, MismatchPercentage = 75, BriefReport = 0, IgnoreCase = 1, IgnoreNumbers = 1, IgnoreOuterPunctuation = 1, IgnorePunctuation = 1, SkipLongWords = 1, Compare1 = 1, Compare2 = 2)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
