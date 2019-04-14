@@ -20,7 +20,7 @@ The DESCRIPTION file:
 Maintainer: \packageMaintainer{RCopyFind}
 }
 \references{
-Collingwood, Loren, Stephanie DeMora, and Adriana Ninci. "Shoot First in ALEC's Castle: The
+DeMora, Stephanie L., Loren Collingwood, and Adriana Ninci. "Shoot First in ALEC's Castle: The
 Diffusion of Stand Your Ground Laws."
 }
 \keyword{ package }
