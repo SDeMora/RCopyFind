@@ -5,7 +5,7 @@
 file_name}
 \description{
 file_name produces the accurate file path for the html output produced by WCopyFind. This allows R to read and recognize the file for further processing.}
-}
+
 \usage{
 file_name(dir)
 }
