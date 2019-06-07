@@ -1,6 +1,5 @@
 \name{run_copyfind}
 \alias{run_copyfind}
-run_copyfind
 \title{
 run_copyfind}
 \description{

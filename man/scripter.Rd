@@ -1,6 +1,5 @@
 \name{scripter}
 \alias{scripter}
-scripter
 \title{
 scripter}
 \description{
