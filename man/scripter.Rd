@@ -97,7 +97,6 @@ script<-scripter()
 write.table(script,"script.txt", col.names = FALSE, row.names = FALSE, quote = FALSE)
 
   }
-}
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
 \keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
