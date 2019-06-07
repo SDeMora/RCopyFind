@@ -1,6 +1,5 @@
 \name{cleanup}
 \alias{cleanup}
-cleanup
 \title{
 cleanup
 }
